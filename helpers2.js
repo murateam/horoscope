@@ -1,6 +1,5 @@
 prophecies_url = "http://sf-pyw.mosyag.in/m04/api/forecasts"
 
-
 $("#id1").click(function() {
 	
 	$.getJSON(prophecies_url, function(data){
